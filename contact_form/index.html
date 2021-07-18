@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact me</title>
+<style media="screen">
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #fcf8e8;
+  background-image: url(bhpl.png);
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 1;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+
+input[type=submit] {
+  background: #64B5F6;
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+input[type=submit]:focus {
+  background: #A5D6A7;
+  color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+  background: #2196F3;
+}
+.center {
+  text-align: center;
+}
+
+
+</style>
+</head>
+
+<body>
+  <h1>Contact us</h1>
+
+
+  <hr>
+  <h2>Submit the form</h2>
+  <div class="container">
+
+
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfB8X8dDZNQgKRIPyRIlXsz3uPuyJkvf54nM-4IrgKXY3kzog/formResponse" method="get" target="hidden-form" enctype="text/plain" >
+  <label for="First Name"><b>First Name</b></label>
+		<input type="text"   placeholder="John"  name="entry.1640104858" required>
+		<br><br>
+<label for="Last Name"><b>Last Name</b></label>
+		<input type="text"  placeholder="Doe" name="entry.2123203538" required>
+		<br><br>
+  <label for="email"><b>Email</b></label>
+		<input type="email"  placeholder="you@domain.com" name="entry.1612161976" required>
+		<br><br>
+
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+
+  </form>
+  <!-- <iframe style="display:none" name="hidden-form"></iframe>
+</div>
+</body> -->
+
+</html>

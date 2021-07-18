@@ -1,0 +1,44 @@
+.email-signup-thankyou{
+  font-family:sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #333;
+  padding:10%;
+
+}
+body{
+  background:#ffab73;
+}
+img{
+  width: 100px;
+  display: inline;
+
+}
+h1{
+  display: inline;
+  font-size: 4rem;
+  margin-left: 20px;
+  color: #ffab73;
+
+}
+ /* .caption {
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    line-height: 289px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.25s linear;
+}
+.fa-link:before {
+    content: "\f0c1";
+}
+ li:hover .caption {
+    top: 0;
+} */
